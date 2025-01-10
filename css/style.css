@@ -1,0 +1,118 @@
+/* font import */
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+
+.work-sans-font {
+  font-family: "Work Sans", serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+/* Nav Bar Styling */
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 20px;
+  
+}
+nav h3 {
+  width: 222px;
+  height: 38px;
+  font-size: 32px;
+  font-weight: bold;
+  color: #0e0e0e;
+  margin-top: 31px;
+  margin-bottom: 31px;
+  margin-left: 160px;
+}
+
+nav button {
+  height: 52px;
+  width: 116px;
+  border: #006a50 solid 1px;
+  display: flex;
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-right: 160px;
+  justify-content: center;
+  align-items: center;
+}
+
+nav a {
+  color: #006a50;
+  font-size: 18px;
+  text-decoration: none;
+  font-weight: 600;
+  padding: 30px 15px;
+}
+
+
+/* Shared Styling */
+.primary-btn{
+    width: 270px;
+    height: 56px;
+    background: #006A50;
+    border: #000000 solid 1px;
+    border-radius: 8px;
+}
+
+
+
+/* Banner Styling */
+.banner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 560px;
+    background: #C6E4D6;
+    gap: 64px;
+    margin-left: 160px;
+    margin-right: 160px;
+    margin-bottom: 80px;
+    border-radius: 24px;
+}
+
+.banner .container{
+    margin-left: 60px;
+    margin-top: 117px;
+    margin-bottom: 117px;
+    text-align: left;
+    width: 622px;
+    
+}
+
+.banner .description {
+    color: #0E0E0E;
+    opacity: 50%;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 16px;
+}
+
+.banner .title {
+    font-size: 56px;
+    font-weight: 700;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+
+.banner img{
+    margin-right: 60px;
+    width: 474.03px;
+}
+
+.banner .primary-btn a{
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    padding:34px 17px;
+}
