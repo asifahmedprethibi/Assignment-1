@@ -21,7 +21,6 @@ nav {
   align-items: center;
   text-align: center;
   margin-bottom: 20px;
-  
 }
 nav h3 {
   width: 222px;
@@ -54,65 +53,291 @@ nav a {
   padding: 30px 15px;
 }
 
-
 /* Shared Styling */
-.primary-btn{
-    width: 270px;
-    height: 56px;
-    background: #006A50;
-    border: #000000 solid 1px;
-    border-radius: 8px;
+.primary-btn {
+  width: 270px;
+  height: 56px;
+  background: #006a50;
+  border: #000000 solid 1px;
+  border-radius: 8px;
 }
 
+.secondary-btn {
+  width: 122px;
+  height: 41px;
+  padding: 10px;
+  border-radius: 8px;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 600;
+  text-align: center;
+  border: none;
+}
 
+.description {
+  color: #0e0e0e;
+  font-size: 16px;
+  opacity: 70%;
+}
 
 /* Banner Styling */
 .banner {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    height: 560px;
-    background: #C6E4D6;
-    gap: 64px;
-    margin-left: 160px;
-    margin-right: 160px;
-    margin-bottom: 80px;
-    border-radius: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 560px;
+  background: #c6e4d6;
+  gap: 64px;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-bottom: 80px;
+  border-radius: 24px;
 }
 
-.banner .container{
-    margin-left: 60px;
-    margin-top: 117px;
-    margin-bottom: 117px;
-    text-align: left;
-    width: 622px;
-    
+.banner .container {
+  margin-left: 60px;
+  margin-top: 117px;
+  margin-bottom: 117px;
+  text-align: left;
+  width: 622px;
 }
 
 .banner .description {
-    color: #0E0E0E;
-    opacity: 50%;
-    font-size: 24px;
-    font-weight: 500;
-    margin-bottom: 16px;
+  color: #0e0e0e;
+  opacity: 50%;
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 16px;
 }
 
 .banner .title {
-    font-size: 56px;
-    font-weight: 700;
-    color: #0E0E0E;
-    margin-bottom: 24px;
+  font-size: 56px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-bottom: 24px;
 }
 
-.banner img{
-    margin-right: 60px;
-    width: 474.03px;
+.banner img {
+  margin-right: 60px;
+  width: 474.03px;
 }
 
-.banner .primary-btn a{
-    color: #ffffff;
-    font-size: 18px;
-    font-weight: 600;
-    text-decoration: none;
-    padding:34px 17px;
+.banner .primary-btn a {
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 34px 17px;
 }
+
+/* Pillars Styling */
+
+.pillars .title {
+  font-size: 40px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-bottom: 32px;
+}
+
+.pillars {
+  height: 324px;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-bottom: 80px;
+}
+
+.pillar-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+}
+
+.pillar {
+  height: 244px;
+  background: #ffffff;
+  border: rgba(14, 14, 14, 0.15) solid 1px;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+pillar.img {
+  margin-bottom: 24px;
+}
+.pillar-title {
+  font-size: 20px;
+  font-weight: 700;
+  color: #0e0e0e;
+  margin-bottom: 12px;
+}
+
+/* Visions Styling*/
+
+#visions {
+  height: 765px;
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  gap: 32px;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-bottom: 80px;
+}
+.vision-container {
+  display: flex;
+  align-items: left;
+  justify-content: space-between;
+  gap: 24px;
+  margin: 32px 0;
+}
+
+#visions .title {
+  font-size: 40px;
+  font-weight: 700;
+  margin-bottom: 24px;
+  color: #0e0e0e;
+  margin-top: 80px;
+}
+
+.vision-1 {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 24px;
+  padding: 32px;
+  text-align: left;
+  background: rgba(84, 144, 245, 0.2) 20%;
+  border: rgba(84, 144, 245, 1);
+  background-position: 0px;
+  border-radius: 16px;
+  height: 325px;
+}
+
+.vision-1 .secondary-btn {
+  background: #5490f5;
+}
+.vision-2 {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 24px;
+  padding: 32px;
+  text-align: left;
+  background: rgba(198, 228, 214, 1) 100%;
+  border: rgba(9, 161, 92, 1) 100%;
+  background-position: 0px;
+  border-radius: 16px;
+  height: 325px;
+}
+
+.vision-2 .secondary-btn {
+  background: #09a15c;
+}
+.vision-3 {
+  display: flex;
+  align-items: start;
+  justify-content: space-between;
+  flex-direction: column;
+  gap: 24px;
+  padding: 32px;
+  text-align: left;
+  background: rgba(247, 235, 207, 1) 100%;
+  border: rgba(255, 194, 57, 1);
+  background-position: 0px;
+  border-radius: 16px;
+  height: 325px;
+}
+
+.vision-3 .secondary-btn {
+  background: #ffc239;
+}
+
+/* vision-about styling */
+
+.vision-about {
+  height: 256px;
+  border: rgba(14, 14, 14, 0.15) solid 1px;
+  border-radius: 16px;
+  padding: 48px 24px;
+  background: url("../assets/quote-bg.png") no-repeat;
+  background-position: 23px 23px;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-bottom: 80px;
+}
+
+.vision-about-container {
+  display: flex;
+  align-items: start;
+  flex-direction: column;
+  text-align: left;
+}
+.vision-about .description {
+  margin-bottom: 12px;
+}
+.vision-about-title {
+  margin-bottom: 4px;
+}
+
+/* News Styling */
+
+.recent-news {
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-bottom: 80px;
+}
+
+.intro {
+  margin-bottom: 32px;
+}
+
+.recent-news-container {
+  padding: 48px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.news {
+  display: flex;
+  gap: 32px;
+  align-items: center;
+}
+
+.satelite {
+  border-radius: 24px;
+}
+
+.news-container.news-title {
+  font-size: 32;
+  font-weight: 700;
+  margin-bottom: 12px;
+}
+
+.news-container img {
+  margin-bottom: 12px;
+}
+
+.news-container .description {
+  margin-bottom: 12px;
+}
+
+.news-container .primary-btn {
+  margin-top: 20px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  width: 139px;
+  height: 48px;
+}
+
+.recent-news-container .satelite {
+  height: 300px;
+}
+
+
+/* Donate Styling */
+
