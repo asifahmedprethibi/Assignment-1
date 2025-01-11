@@ -474,6 +474,11 @@ pillar.img {
   font-weight: 700;
 }
 
+.subscribe-container .description{
+  width: 622px;
+  height: 48px;
+}
+
 .subscribe-container input{
   width: 600px;
   height: 55px;
@@ -499,4 +504,29 @@ pillar.img {
   border: none;
   border-top-left-radius: 0px;
   border-bottom-left-radius: 0px;
+}
+
+
+/* Footer Styling */
+
+footer{
+  height: 266px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 64px;
+}
+
+footer h2 {
+  width: 222px;
+  height: 38px;
+  font-size: 32px;
+  font-weight: 700;
+  color: #0e0e0e;
+}
+
+.footer-logo {
+  display: flex;
+  align-items: center;
+  gap: 23px;
 }
