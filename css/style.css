@@ -174,21 +174,21 @@ pillar.img {
 
 #visions {
   height: 765px;
-  
+  margin-left: 160px;
+  margin-right: 160px;
+  /* margin-bottom: 80px; */
+}
+#visions .title-container{
   display: flex;
   align-items: start;
   flex-direction: column;
-  gap: 32px;
-  margin-left: 160px;
-  margin-right: 160px;
-  margin-bottom: 80px;
 }
 .vision-container {
   display: flex;
   align-items: left;
   justify-content: space-between;
   gap: 24px;
-  margin: 32px 0;
+  margin-top: 32px;
 }
 
 #visions .title {
@@ -262,10 +262,13 @@ pillar.img {
   border-radius: 16px;
   padding: 48px 24px;
   background: url("../assets/quote-bg.png") no-repeat;
-  background-position: 23px 23px;
+  background-position: 24px 80px;
   margin-left: 160px;
   margin-right: 160px;
   margin-bottom: 80px;
+  display: flex;
+  align-items: center;
+
 }
 
 .vision-about-container {
@@ -368,9 +371,9 @@ pillar.img {
   display: flex;
   align-items: center;
   justify-content: space-between;
-  height: 128px;
+ 
   gap: 24px;
-  width: 1071px;
+  /* width: 1071px; */
 }
 
 .donate-container .taka {
@@ -387,6 +390,21 @@ pillar.img {
   justify-content: center;
 }
 
+.donate-container .taka-2 {
+  width: 264px;
+  height: 128px;
+  font-size: 40px;
+  font-weight: 700;
+  opacity: 80%;
+  color: #0E0E0E;
+  border: rgba(14, 14, 14, 0.15) solid 1px;
+  border-radius: 16px;
+  background: rgba(198, 228, 214, 1);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
 #taka-text-area {
   width: 1032px;
   height: 64px;
@@ -398,7 +416,6 @@ pillar.img {
   text-align: center;
   font-size: 20px;
   color: rgba(14, 14, 14, 0.3);
-  opacity: ;
 }
 
 .donate .primary-btn{
@@ -410,4 +427,76 @@ pillar.img {
   width: 139px;
   height: 48px;
   margin-top: -50px;
+}
+
+/* Subscribe styling */
+.subscribe{
+  height: 395px;
+  /* width: 1280px; */
+  background: rgba(198, 228, 214, 1);
+  border-radius: 24px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  margin-left: 160px;
+  margin-right: 160px;
+  margin-bottom: 80px;
+}
+
+
+.subscribe-container {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 24px;
+  padding: 80px 265px;
+  height: 235px;
+}
+
+
+.subscribe-container .title-container{
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  gap: 16px;
+}
+
+.subscribe-container .email{
+  display: flex;
+}
+
+.subscribe-container .subscribe-title{
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.subscribe-container input{
+  width: 600px;
+  height: 55px;
+  background: #ffffff;
+  border: none;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
+}
+
+.subscribe-container input::placeholder{
+  color: rgba(14, 14, 14, 0.3);
+  text-align: center;
+  
+}
+
+.subscribe .primary-btn{
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  width: 150px;
+  height: 55px;
+  border: none;
+  border-top-left-radius: 0px;
+  border-bottom-left-radius: 0px;
 }
